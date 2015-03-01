@@ -59,7 +59,7 @@ def ler_qualar(directory, lista_ficheiros):
     return df_pol
 
 
-d_qualar = '2003-2013'
+d_qualar = 'qualar_files'
 path_dados_qualar = os.path.join(os.getcwd(),d_qualar)
 ficheiros_O3 = [i for i in os.listdir(path_dados_qualar) if i.startswith('_O3')]
 ficheiros_PM = [i for i in os.listdir(path_dados_qualar) if i.startswith('_PM')]
